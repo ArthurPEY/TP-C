@@ -12,7 +12,7 @@ int main() {
     printf("a+b :%i \n",a+b);
     printf("a-b :%i \n",a-b);
     printf("a*b :%i \n",a*b);
-    printf("a/b :%i \n",a/b);
+    printf("a/b :%.2f \n",(float)a/(float)b);
     printf("a%b :%i \n",a%b);
 
     printf("Opération logiques : \n");
@@ -20,5 +20,6 @@ int main() {
     printf("!a :%i \n",!a);
     printf("a&&b :%i \n",a&&b);
     printf("a||b :%i \n",a||b);
+
     return 0;
 }
