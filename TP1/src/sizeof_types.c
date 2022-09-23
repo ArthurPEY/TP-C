@@ -1,22 +1,24 @@
-
+/*
+Auteurs : Arthur PEY & Pierre-Antoine CHIRON
+Affiche la taille en octets de chaque type de variable
+*/
 
 #include <stdio.h>
 
-int main() {
-    printf("taille d'un char signé:%i \n",sizeof(signed char));
-    printf("taille d'un char non signé:%i \n",sizeof(unsigned char));
-    printf("taille d'un short signé:%i \n",sizeof(signed short));
-    printf("taille d'un short non signé:%i \n",sizeof(unsigned short));
-    printf("taille d'un int signé:%i \n",sizeof(signed int));
-    printf("taille d'un int signé non signé:%i \n",sizeof(unsigned int));
-    printf("taille d'un long int signé:%i \n",sizeof(signed long int));
-    printf("taille d'un long int non signé:%i \n",sizeof(unsigned long int));
-    printf("taille d'un long long int :%i \n",sizeof(signed long long int));
-    printf("taille d'un long long int non signé:%i \n",sizeof(unsigned long long int));
-    printf("taille d'un float:%i \n",sizeof(float));
-    printf("taille d'un double:%i \n",sizeof(double));
-    printf("taille d'un long double:%i \n",sizeof(long double));
+int main(){
+    printf("\n %d octets pour variable de type char ", sizeof(char));
+    printf("\n %d octets pour variable de type unsigned char ", sizeof(unsigned char));
+    printf("\n %d octets pour variable de type unsigned short_int ", sizeof(unsigned short int));
+    printf("\n %d octets pour variable de type short_int ", sizeof(short int));
+    printf("\n %d octets pour variable de type int ", sizeof(int));
+    printf("\n %d octets pour variable de type unsigned int ", sizeof(unsigned int));
+    printf("\n %d octets pour variable de type long int ", sizeof(long int));
+    printf("\n %d octets pour variable de type unsigned long int ", sizeof(unsigned long int));
+    printf("\n %d octets pour variable de type long long int ", sizeof(long long int));
+    printf("\n %d octets pour variable de type unsigned long long int ", sizeof(unsigned long long int));
+    printf("\n %d octets pour variable de type float ", sizeof(float));
+    printf("\n %d octets pour variable de type double ", sizeof(double));
+    printf("\n %d octets pour variable de type long double ", sizeof(long double));
 
     return 0;
-
 }

@@ -8,7 +8,7 @@ Effectue des calculs avec differents opérateurs en utlisant la méthode de swit
 int main(){
     int num1 = 10; // Initialisation des variables
     int num2 = 20;
-    char op = '+';
+    char op = '7';
 
     switch(op){ // Cases de calculs
         case '+':printf("num1+num2 : %i\n",num1+num2); break;

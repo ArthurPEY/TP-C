@@ -1,15 +1,21 @@
+/*
+Auteurs : Arthur PEY & Pierre-Antoine CHIRON
+Programme calculant l'aire et le périmetre d'un cercle
+*/
+
 #include <stdio.h>
 
-
 int main(){
-    float rayon = 4;
+    float rayon = 4.00; //Initialisation des variables
+    float pi = 3.14;
     float aire = 0;
     float perimetre = 0;
-    float pi = 3.141592;
 
+    aire = pi*rayon*rayon; //Calcul de l'aire et du périmètre
     perimetre = 2*pi*rayon;
-    aire = pi*rayon*rayon;
 
-    printf("Périmètre du cercle: %f\n",perimetre);
-    printf("Aire du cercle: %f\n",aire);
+    printf("L'aire est : %f\n", aire);
+    printf("Perimetre : %f\n", perimetre);
+
+    return 0;
 }
